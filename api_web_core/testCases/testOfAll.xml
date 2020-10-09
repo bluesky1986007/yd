@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="最终测试结果" verbose="1" skipfailedinvocationcounts="true" preserve-order="true">
+
+	<suite-files>
+		<suite-file path="testOfWeb.xml"></suite-file>
+		<suite-file path="testOfApp.xml"></suite-file>
+	</suite-files>
+
+</suite>

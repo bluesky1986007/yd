@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="APP核心接口自动化测试" verbose="1" skipfailedinvocationcounts="true" preserve-order="true">
+
+	<!-- 会员接口 -->
+	<test name="P1_APP接口_会员_移动会员登录" >
+		<classes>
+			<class name="test.app.LoginOfAppPostTest">
+				<methods>
+					<include name="loginOfApp" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

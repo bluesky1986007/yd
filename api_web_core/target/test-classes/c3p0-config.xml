@@ -1,0 +1,29 @@
+<c3p0-config>
+	<named-config name="sqlserver_uat_Homedo">
+
+		<!-- 连接数据库的四个字符串 -->
+		<property name="driverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="jdbcUrl">jdbc:sqlserver://web-homedo.sqlserver2014101022010.uat.homedo.com:1433;DatabaseName=Homedo</property>
+		<property name="user">write_uathmd</property>
+		<property name="password">gPQ,7t3@To$</property>
+
+		<!-- 若连接池满了一次增长几个 -->
+		<property name="acquireIncrement">5</property>
+
+		<!-- 连接池初始大小 -->
+		<property name="initialPoolSize">10</property>
+
+		<!-- 连接池中最小连接数 -->
+		<property name="minPoolSize">5</property>
+
+		<!-- 连接池中最大连接数 -->
+		<property name="maxPoolSize">10</property>
+
+		<!-- 整个连接池中最多管理的 Statement 的个数 -->
+		<property name="maxStatements">10</property>
+
+		<!-- 连接池中每个连接最多管理的 Statement 的个数 -->
+		<property name="maxStatementsPerConnection">2</property>
+
+	</named-config>
+</c3p0-config>
