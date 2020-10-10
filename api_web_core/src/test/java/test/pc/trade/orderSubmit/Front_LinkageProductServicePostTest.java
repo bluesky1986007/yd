@@ -18,8 +18,8 @@ public class Front_LinkageProductServicePostTest extends BaseTest {
 	@BeforeClass
 	public void beforeClass()  {
 
-//		env = BaseTest.envOfPRO;
-//		logger.info("env="+env);
+		env = BaseTest.envOfPRO;
+		logger.info("env="+env);
 
 	}
 	
