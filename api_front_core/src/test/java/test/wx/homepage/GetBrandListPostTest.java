@@ -24,9 +24,9 @@ public class GetBrandListPostTest extends BaseTest {
 	@BeforeClass
 	public void beforeClass()  {
 
-		env = BaseTest.envOfPRO;
-		client = BaseTest.clientOfwx;
-		logger.info("env="+env+";"+"client="+client);
+//		env = BaseTest.envOfPRO;
+//		client = BaseTest.clientOfwx;
+//		logger.info("env="+env+";"+"client="+client);
 
 	}
 	

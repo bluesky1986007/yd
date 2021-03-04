@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="PC核心接口自动化测试" verbose="1" skipfailedinvocationcounts="true" preserve-order="true">
+
+	<!-- 首页 -->
+	<test name="P1_小程序_首页_获取品牌活动列表_前端接口" >
+		<classes>
+			<class name="test.wx.homepage.GetBrandListPostTest">
+				<methods>
+					<include name="getBrandList" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- 公共接口 -->
+	<!-- 会员体系 -->
+	<!-- 登录接口 -->
+	<!-- 搜索 -->
+	<!-- 核心交易 -->
+	<!-- 商品详情页接口 -->
+	<!-- 下单页接口 -->
+    <!-- 收银台 -->
+	<!-- 购物车页面接口 -->
+
+</suite>

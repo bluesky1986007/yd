@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PC核心接口自动化测试" duration-ms="1650" started-at="2021-03-01T12:59:21Z" finished-at="2021-03-01T12:59:23Z">
+    <groups>
+    </groups>
+    <test name="P1_小程序_首页_获取品牌活动列表_前端接口" duration-ms="1650" started-at="2021-03-01T12:59:21Z" finished-at="2021-03-01T12:59:23Z">
+      <class name="test.wx.homepage.GetBrandListPostTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.wx.homepage.GetBrandListPostTest@6737fd8f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="410" started-at="2021-03-01T20:59:21Z" finished-at="2021-03-01T20:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.wx.homepage.GetBrandListPostTest@6737fd8f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-03-01T20:59:22Z" finished-at="2021-03-01T20:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.wx.homepage.GetBrandListPostTest@6737fd8f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2021-03-01T20:59:22Z" finished-at="2021-03-01T20:59:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.wx.homepage.GetBrandListPostTest.getBrandList(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="getBrandList(java.util.Map)[pri:0, instance:test.wx.homepage.GetBrandListPostTest@6737fd8f]" name="getBrandList" duration-ms="1067" started-at="2021-03-01T20:59:22Z" description="流量接口--首页--活动列表" data-provider="testData" finished-at="2021-03-01T20:59:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{saleSort=0, msg=success, memberInviteCode=22SJPF, timeSort=0, pageSize=10, appKey=jinribaotuan, loginFlag=1, source=jinribaotuan, sessionId=82bF5FqxKJgUaHfzNCSzmmMhGZXERmOz, pageNum=1, version=1.0.0, categoryId=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrandList -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.wx.homepage.GetBrandListPostTest@6737fd8f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2021-03-01T20:59:23Z" finished-at="2021-03-01T20:59:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.wx.homepage.GetBrandListPostTest.getBrandList(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.wx.homepage.GetBrandListPostTest@6737fd8f]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-03-01T20:59:23Z" finished-at="2021-03-01T20:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.wx.homepage.GetBrandListPostTest -->
+    </test> <!-- P1_小程序_首页_获取品牌活动列表_前端接口 -->
+  </suite> <!-- PC核心接口自动化测试 -->
+  <suite name="最终测试结果" duration-ms="0" started-at="2021-03-01T12:59:23Z" finished-at="2021-03-01T12:59:23Z">
+    <groups>
+    </groups>
+  </suite> <!-- 最终测试结果 -->
+</testng-results>

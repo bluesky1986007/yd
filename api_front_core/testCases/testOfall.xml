@@ -3,8 +3,8 @@
 <suite name="最终测试结果" verbose="1" skipfailedinvocationcounts="true" preserve-order="true">
 
 	<suite-files>
-		<suite-file path="testOfWeb.xml"></suite-file>
-		<suite-file path="testOfApp.xml"></suite-file>
+		<suite-file path="testOfwx.xml"></suite-file>
+<!--		<suite-file path="testOfapp.xml"></suite-file>-->
 	</suite-files>
 
 </suite>
